@@ -128,9 +128,23 @@
     }
             }
       });
+	  
+	  	  	window.addEventListener('message', function(event) {
+
+			if (event.data === 'fullscreen')
+			{
+			// Handle game completion
+			console.log('Game has completed!');
+
+            }
+
+        });
+		
+	
+	  
+	  
     </script>
 
-    <script src="fullscreen.js"></script>
 
   </body>
 </html>
